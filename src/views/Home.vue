@@ -1,7 +1,9 @@
 <template>
-  <div class="home">
+  <div class="home container">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <input class="input" type="text" placeholder="Search">
+    <span class="icon is-left"></span>
   </div>
 </template>
 
