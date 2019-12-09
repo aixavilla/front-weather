@@ -28,7 +28,7 @@ export default new Vuex.Store({
       state.temp.current = payload.main.temp;
       state.temp.min = payload.main.temp_min;
       state.temp.max = payload.main.temp_max;
-      state.temp.icon = `../../assets/${payload.weather[0].icon}@2x.png`
+      state.temp.icon = `/img/${payload.weather[0].icon}@2x.png`
       state.weather.main = payload.weather[0].main;
       state.weather.description = payload.weather[0].description;
     }

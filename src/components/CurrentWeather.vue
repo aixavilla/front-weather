@@ -3,8 +3,10 @@
     <div class="columns">
       <div class="column is-one-third">
         <div class="column notification is-info">
-          <p class="">{{city.name}},{{city.country}}</p>
+          <h1 class="">{{city.name}},{{city.country}}</h1>
           <img :src="temp.icon" alt="icon">
+          <br>
+          <p>Temperatura Actual: {{temp.current}}</p>
         </div>
       </div>
       <div class="column">
